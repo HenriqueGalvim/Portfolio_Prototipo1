@@ -1,0 +1,31 @@
+/*Aqui será feito todas as modificações textuais*/
+h3{
+	padding-bottom: 2.5rem;
+}
+.espaco1{
+	margin-bottom: 25px;
+	line-height: 2.5rem;
+}
+.font1{ /* Fonte para palavras destacadas*/
+	font-family: 'Courier Prime', monospace;
+}
+
+.font2{
+	font-family: 'EB Garamond', serif;
+}
+.fotos{
+	
+}
+.container-fotos{
+	
+}
+.sobre-mim h2{
+	line-height: 4rem;
+}
+.texto{
+	margin-left: 7rem;
+	line-height: 2rem;
+	width: 28rem;
+	padding: 1rem;
+	
+}

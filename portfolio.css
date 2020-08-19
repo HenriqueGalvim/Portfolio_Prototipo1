@@ -1,0 +1,94 @@
+li{
+	list-style: none;
+}
+	.Eu{
+		padding-top: 2rem;
+		text-align: center;
+		margin-left: 38rem;
+	}
+	.Eu img{
+		width: 100px;
+		height: 155px;
+		border-radius: 60px;
+	}
+	.container {
+			margin-top: 2rem;
+			margin-left: 20rem;
+	    	padding: 2rem;
+	    	text-align: center;
+	    	width: 100vh;
+	    	
+	    	
+	}
+	.fotos{ /* Aqui começa a parte dos projetos*/
+		display: grid;
+		grid-template-columns: 100px 100px;
+		gap:6rem 15rem;
+		justify-content: center;
+	}
+	.fotos figure a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.fotos figure{
+		margin: 2rem 0;
+	}
+	.fotos figure img{
+		width: 10rem;
+		height: 10rem;
+		border-radius: 2rem;
+		transition: width 2s, height 2s, box-shadow 2s,margin-bottom 2s;
+	     
+	}
+
+	.fotos figure img:hover{
+		width: 12rem;
+		height: 12rem;
+		margin-bottom: 1rem;
+		box-shadow:  
+		0 0 20px #112233,
+		0 0 20px #112233,
+		0 0 20px #112233,
+		0 0 20px #112233;
+	}
+	.fotos figure figcaption{
+		text-align: center;
+		transition: text-shadow 2s,color 1.5s, padding-top 3s,padding-left 3s;
+	}
+	.fotos figure figcaption:hover{
+		padding-top: 1rem;
+		padding-left: 2rem;
+		color:black;
+		text-shadow: /* Usei quatro para aumentar a quantidade de intensidade*/
+		0 0 20px white,
+		0 0 20px white;
+		
+		/* Aqui termina a parte dos projetos*/
+	}
+
+	.grid-icons{
+		display: grid;
+		grid-template-columns: auto auto;
+		font-size: 3.5rem;
+	}
+
+	.grid-icons i{
+		width: 8rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		color:black;
+		transition: text-shadow 2s,box-shadow 2s,font-size 2s;
+
+	}
+
+	.grid-icons i:hover{
+		font-size: 4.5rem;
+		box-shadow: 
+		5px 5px 20px black;
+		text-shadow: 
+		0 0 20px white,
+		0 0 20px white;
+	}
